@@ -1,0 +1,1911 @@
+apiVersion: apiextensions.crossplane.io/v1
+kind: Composition
+metadata:
+  name: xhorcrux.sub0876.horcrux.dev
+spec:
+  compositeTypeRef:
+    apiVersion: sub0876.horcrux.dev/v1alpha1
+    kind: XHorcrux
+  publishConnectionDetailsWithStoreConfigRef:
+    name: default
+  resources:
+    - name: oof-001
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-001"
+    - name: oof-002
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-002"
+    - name: oof-003
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-003"
+    - name: oof-004
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-004"
+    - name: oof-005
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-005"
+    - name: oof-006
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-006"
+    - name: oof-007
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-007"
+    - name: oof-008
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-008"
+    - name: oof-009
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-009"
+    - name: oof-010
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-010"
+    - name: oof-011
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-011"
+    - name: oof-012
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-012"
+    - name: oof-013
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-013"
+    - name: oof-014
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-014"
+    - name: oof-015
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-015"
+    - name: oof-016
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-016"
+    - name: oof-017
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-017"
+    - name: oof-018
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-018"
+    - name: oof-019
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-019"
+    - name: oof-020
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-020"
+    - name: oof-021
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-021"
+    - name: oof-022
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-022"
+    - name: oof-023
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-023"
+    - name: oof-024
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-024"
+    - name: oof-025
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-025"
+    - name: oof-026
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-026"
+    - name: oof-027
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-027"
+    - name: oof-028
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-028"
+    - name: oof-029
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-029"
+    - name: oof-030
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-030"
+    - name: oof-031
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-031"
+    - name: oof-032
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-032"
+    - name: oof-033
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-033"
+    - name: oof-034
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-034"
+    - name: oof-035
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-035"
+    - name: oof-036
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-036"
+    - name: oof-037
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-037"
+    - name: oof-038
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-038"
+    - name: oof-039
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-039"
+    - name: oof-040
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-040"
+    - name: oof-041
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-041"
+    - name: oof-042
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-042"
+    - name: oof-043
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-043"
+    - name: oof-044
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-044"
+    - name: oof-045
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-045"
+    - name: oof-046
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-046"
+    - name: oof-047
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-047"
+    - name: oof-048
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-048"
+    - name: oof-049
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-049"
+    - name: oof-050
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-050"
+    - name: oof-051
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-051"
+    - name: oof-052
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-052"
+    - name: oof-053
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-053"
+    - name: oof-054
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-054"
+    - name: oof-055
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-055"
+    - name: oof-056
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-056"
+    - name: oof-057
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-057"
+    - name: oof-058
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-058"
+    - name: oof-059
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-059"
+    - name: oof-060
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-060"
+    - name: oof-061
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-061"
+    - name: oof-062
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-062"
+    - name: oof-063
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-063"
+    - name: oof-064
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-064"
+    - name: oof-065
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-065"
+    - name: oof-066
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-066"
+    - name: oof-067
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-067"
+    - name: oof-068
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-068"
+    - name: oof-069
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-069"
+    - name: oof-070
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-070"
+    - name: oof-071
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-071"
+    - name: oof-072
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-072"
+    - name: oof-073
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-073"
+    - name: oof-074
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-074"
+    - name: oof-075
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-075"
+    - name: oof-076
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-076"
+    - name: oof-077
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-077"
+    - name: oof-078
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-078"
+    - name: oof-079
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-079"
+    - name: oof-080
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-080"
+    - name: oof-081
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-081"
+    - name: oof-082
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-082"
+    - name: oof-083
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-083"
+    - name: oof-084
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-084"
+    - name: oof-085
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-085"
+    - name: oof-086
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-086"
+    - name: oof-087
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-087"
+    - name: oof-088
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-088"
+    - name: oof-089
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-089"
+    - name: oof-090
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-090"
+    - name: oof-091
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-091"
+    - name: oof-092
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-092"
+    - name: oof-093
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-093"
+    - name: oof-094
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-094"
+    - name: oof-095
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-095"
+    - name: oof-096
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-096"
+    - name: oof-097
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-097"
+    - name: oof-098
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-098"
+    - name: oof-099
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-099"
+    - name: oof-100
+      base:
+        apiVersion: nop.crossplane.io/v1alpha1
+        kind: NopResource
+        spec:
+          forProvider:
+            conditionAfter:
+              - conditionStatus: "True"
+                conditionType: Ready
+                time: 1s
+          providerConfigRef:
+            name: default
+      patches:
+        - fromFieldPath: metadata.name
+          toFieldPath: metadata.name
+          transforms:
+            - type: string
+              string:
+                fmt: "%s-100"
