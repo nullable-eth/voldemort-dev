@@ -14,7 +14,7 @@ metadata:
 spec:
   crossplane:
     version: ">=v1.13.0-0"
-  dependsOn
+  dependsOn:
     - provider: xpkg.upbound.io/crossplane-contrib/provider-helm
       version: ">=v0.15.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-kubernetes
@@ -34,7 +34,7 @@ spec:
     - provider: xpkg.upbound.io/upbound/provider-nop
       version: ">=v0.2.0"
     - provider: xpkg.upbound.io/upbound/provider-vault
-      version: ">=0.3.0
+      version: ">=0.3.0"
     - provider: xpkg.upbound.io/upbound/provider-tencentcloud
       version: ">=0.7.1"
     - provider: xpkg.upbound.io/upbound/provider-jet-equinix
