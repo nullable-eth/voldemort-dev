@@ -19,8 +19,8 @@ spec:
       version: ">=v0.15.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-kubernetes
       version: ">=v0.9.0"
-#    - provider: xpkg.upbound.io/upbound/provider-aws
-#      version: ">=v0.45.0"
+    - provider: xpkg.upbound.io/upbound/provider-aws
+      version: ">=v0.45.0"
     - provider: xpkg.upbound.io/upbound/provider-upbound
       version: ">=v0.2.0"
     - provider: xpkg.upbound.io/upbound/provider-gcp
@@ -31,12 +31,12 @@ spec:
       version: ">=v0.2.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-nop
       version: ">=v0.2.0"
-#    - provider: xpkg.upbound.io/upbound/provider-vault
-#      version: ">=0.3.0"
+    - provider: xpkg.upbound.io/upbound/provider-vault
+      version: ">=0.3.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-tencentcloud
       version: ">=0.7.1"
-#    - provider: xpkg.upbound.io/upbound/provider-azuread
-#      version: ">=0.14.0"
+    - provider: xpkg.upbound.io/upbound/provider-azuread
+      version: ">=0.14.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-openstack
       version: ">=0.3.0"
     - provider: xpkg.upbound.io/equinix/provider-jet-equinix
