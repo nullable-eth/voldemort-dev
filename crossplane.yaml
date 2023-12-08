@@ -15,35 +15,35 @@ spec:
   crossplane:
     version: ">=v1.13.0-0"
   dependsOn:
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-helm
-      version: ">=v0.15.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-kubernetes
-      version: ">=v0.9.0"
-    - provider: xpkg.upbound.io/upbound/provider-aws
-      version: ">=v0.45.0"
-    - provider: xpkg.upbound.io/upbound/provider-upbound
-      version: ">=v0.2.0"
-    - provider: xpkg.upbound.io/upbound/provider-gcp
-      version: ">=v0.39.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-helm
+#      version: ">=v0.15.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-kubernetes
+#      version: ">=v0.9.0"
+#    - provider: xpkg.upbound.io/upbound/provider-aws
+#      version: ">=v0.45.0"
+#    - provider: xpkg.upbound.io/upbound/provider-upbound
+#      version: ">=v0.2.0"
+#    - provider: xpkg.upbound.io/upbound/provider-gcp
+#      version: ">=v0.39.0"
     - provider: xpkg.upbound.io/upbound/provider-azure
       version: ">=v0.39.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-argocd
-      version: ">=v0.2.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-nop
-      version: ">=v0.2.0"
-    - provider: xpkg.upbound.io/upbound/provider-vault
-      version: ">=0.3.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-tencentcloud
-      version: ">=0.7.1"
-    - provider: xpkg.upbound.io/upbound/provider-azuread
-      version: ">=0.14.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-openstack
-      version: ">=0.3.0"
-    - provider: xpkg.upbound.io/equinix/provider-jet-equinix
-      version: ">=0.6.2"
-    - provider: xpkg.upbound.io/linode/provider-linode
-      version: ">=0.0.15"
-    - provider: xpkg.upbound.io/digitalocean/provider-digitalocean
-      version: ">=0.2.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-vultr
-      version: ">=0.2.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-argocd
+#      version: ">=v0.2.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-nop
+#      version: ">=v0.2.0"
+#    - provider: xpkg.upbound.io/upbound/provider-vault
+#      version: ">=0.3.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-tencentcloud
+#      version: ">=0.7.1"
+#    - provider: xpkg.upbound.io/upbound/provider-azuread
+#      version: ">=0.14.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-openstack
+#      version: ">=0.3.0"
+#    - provider: xpkg.upbound.io/equinix/provider-jet-equinix
+#      version: ">=0.6.2"
+#    - provider: xpkg.upbound.io/linode/provider-linode
+#      version: ">=0.0.15"
+#    - provider: xpkg.upbound.io/digitalocean/provider-digitalocean
+#      version: ">=0.2.0"
+#    - provider: xpkg.upbound.io/crossplane-contrib/provider-vultr
+#      version: ">=0.2.0"
