@@ -35,15 +35,9 @@ spec:
       version: ">=0.3.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-tencentcloud
       version: ">=0.7.1"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-jet-equinix
-      version: ">=0.6.1"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-flexibleengine
-      version: ">=0.4.1"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-vcd
-      version: ">=0.0.1"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-mongodbatlas
-      version: ">=0.4.1"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-palette
-      version: ">=0.12.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-linode
-      version: ">=0.15.0"
+    - provider: xpkg.upbound.io/upbound/provider-azuread
+      version: ">=0.14.0"
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-openstack
+      version: ">=0.3.0"
+    - provider: xpkg.upbound.io/equinix/provider-jet-equinix
+      version: ">=0.6.2"
