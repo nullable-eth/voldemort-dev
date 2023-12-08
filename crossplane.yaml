@@ -31,7 +31,7 @@ spec:
       version: ">=v0.2.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-nop
       version: ">=v0.2.0"
-    - provider: xpkg.upbound.io/crossplane-contrib/provider-vault
+    - provider: xpkg.upbound.io/upbound/provider-vault
       version: ">=0.3.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-tencentcloud
       version: ">=0.7.1"
