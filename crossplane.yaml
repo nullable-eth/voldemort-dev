@@ -29,21 +29,21 @@ spec:
       version: ">=v0.39.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-argocd
       version: ">=v0.2.0"
-    - provider: xpkg.upbound.io/upbound/provider-nop
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-nop
       version: ">=v0.2.0"
-    - provider: xpkg.upbound.io/upbound/provider-vault
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-vault
       version: ">=0.3.0"
-    - provider: xpkg.upbound.io/upbound/provider-tencentcloud
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-tencentcloud
       version: ">=0.7.1"
-    - provider: xpkg.upbound.io/upbound/provider-jet-equinix
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-jet-equinix
       version: ">=0.6.1"
-    - provider: xpkg.upbound.io/upbound/provider-flexibleengine
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-flexibleengine
       version: ">=0.4.1"
-    - provider: xpkg.upbound.io/upbound/provider-vcd
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-vcd
       version: ">=0.0.1"
-    - provider: xpkg.upbound.io/upbound/provider-mongodbatlas
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-mongodbatlas
       version: ">=0.4.1"
-    - provider: xpkg.upbound.io/upbound/provider-palette
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-palette
       version: ">=0.12.0"
-    - provider: xpkg.upbound.io/upbound/provider-linode
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-linode
       version: ">=0.15.0"
