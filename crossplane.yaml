@@ -31,19 +31,19 @@ spec:
       version: ">=v0.2.0"
     - provider: xpkg.upbound.io/upbound/provider-nop
       version: ">=v0.2.0"
-#    - provider: xpkg.upbound.io/upbound/provider-vault
-#      version: ">=0.3.0"
-#    - provider: xpkg.upbound.io/upbound/provider-tencentcloud
-#      version: ">=0.7.1"
-#    - provider: xpkg.upbound.io/upbound/provider-jet-equinix
-#      version: ">=0.6.1"
-#    - provider: xpkg.upbound.io/upbound/provider-flexibleengine
-#      version: ">=0.4.1"
-#    - provider: xpkg.upbound.io/upbound/provider-vcd
-#      version: ">=0.0.1"
-#    - provider: xpkg.upbound.io/upbound/provider-mongodbatlas
-#      version: ">=0.4.1"
-#    - provider: xpkg.upbound.io/upbound/provider-palette
-#      version: ">=0.12.0"
-#    - provider: xpkg.upbound.io/upbound/provider-linode
-#      version: ">=0.15.0"
+    - provider: xpkg.upbound.io/upbound/provider-vault
+      version: ">=0.3.0"
+    - provider: xpkg.upbound.io/upbound/provider-tencentcloud
+      version: ">=0.7.1"
+    - provider: xpkg.upbound.io/upbound/provider-jet-equinix
+      version: ">=0.6.1"
+    - provider: xpkg.upbound.io/upbound/provider-flexibleengine
+      version: ">=0.4.1"
+    - provider: xpkg.upbound.io/upbound/provider-vcd
+      version: ">=0.0.1"
+    - provider: xpkg.upbound.io/upbound/provider-mongodbatlas
+      version: ">=0.4.1"
+    - provider: xpkg.upbound.io/upbound/provider-palette
+      version: ">=0.12.0"
+    - provider: xpkg.upbound.io/upbound/provider-linode
+      version: ">=0.15.0"
