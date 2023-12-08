@@ -41,9 +41,9 @@ spec:
 #      version: ">=0.3.0"
 #    - provider: xpkg.upbound.io/equinix/provider-jet-equinix
 #      version: ">=0.6.2"
-#    - provider: xpkg.upbound.io/linode/provider-linode
-#      version: ">=0.0.15"
-#    - provider: xpkg.upbound.io/digitalocean/provider-digitalocean
-#      version: ">=0.2.0"
-#    - provider: xpkg.upbound.io/crossplane-contrib/provider-vultr
-#      version: ">=0.2.0"
+    - provider: xpkg.upbound.io/linode/provider-linode
+      version: ">=0.0.15"
+    - provider: xpkg.upbound.io/digitalocean/provider-digitalocean
+      version: ">=0.2.0"
+    - provider: xpkg.upbound.io/crossplane-contrib/provider-vultr
+      version: ">=0.2.0"
