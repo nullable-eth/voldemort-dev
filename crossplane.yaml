@@ -23,8 +23,8 @@ spec:
 #      version: ">=v0.45.0"
     - provider: xpkg.upbound.io/upbound/provider-upbound
       version: ">=v0.2.0"
-#    - provider: xpkg.upbound.io/upbound/provider-gcp
-#      version: ">=v0.39.0"
+    - provider: xpkg.upbound.io/upbound/provider-gcp
+      version: ">=v0.39.0"
     - provider: xpkg.upbound.io/upbound/provider-azure
       version: ">=v0.39.0"
     - provider: xpkg.upbound.io/crossplane-contrib/provider-argocd
