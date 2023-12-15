@@ -1,0 +1,45 @@
+apiVersion: apiextensions.crossplane.io/v1
+kind: CompositeResourceDefinition
+metadata:
+  name: xhorcruxes.sub0212.horcrux.dev
+spec:
+  group: sub0212.horcrux.dev
+  names:
+    kind: XHorcrux
+    plural: xhorcruxes
+  versions:
+  - name: v1alpha1
+    referenceable: true
+    schema:
+      openAPIV3Schema:
+        properties:
+          spec:
+            properties:
+              parameters:
+                description: Network Parameters
+                properties:
+                  deletionPolicy:
+                    default: Delete
+                    description: When the Composition is deleted, delete the GCP resources.
+                      Defaults to Delete
+                    enum:
+                    - Delete
+                    - Orphan
+                    type: string
+                  id:
+                    description: ID of this Network that other objects will use to
+                      refer to it.
+                    type: string
+                  providerConfigName:
+                    default: default
+                    description: Crossplane ProviderConfig to use for provisioning
+                      this resources
+                    type: string
+                  region:
+                    description: Region is the region you'd like your resource to
+                      be created in.
+                    type: string
+                type: object
+            type: object
+        type: object
+    served: true
